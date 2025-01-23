@@ -1,0 +1,9 @@
+opencv-python-headless
+pillow
+numpy
+scipy
+ultralytics
+streamlit
+matplotlib
+pyswarm
+
