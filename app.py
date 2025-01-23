@@ -12,7 +12,7 @@ st.title("Jalswarm: AI-powered Waste Collection, Navigation, and Disposal System
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
-    # Read the uploaded image
+    # Read the uploaded image using Pillow
     image = Image.open(uploaded_file)
     
     # Convert the image to RGB for processing and display
